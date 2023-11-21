@@ -1,3 +1,5 @@
+import React from 'react';
+import classes from './BookList.module.css';
 export default function BookList() {
    let pageTitle = "Latest Book Releases";
    let book1 = "https://m.media-amazon.com/images/I/61O01hAKJ3L._AC_UF1000,1000_QL80_.jpg";
@@ -6,10 +8,10 @@ export default function BookList() {
 
    return (
       <div>
-         <h3>{pageTitle}</h3>
-         <img src={book1} alt="Wings of Fire!" />
-         <img src={book2} alt="The London Seance Society by Sarah Penner!" />
-         <img src={book3} alt="Romantic Comedy by Curtis Sittenfield!" />
+         <h3 className="bookHeading">{pageTitle}</h3>
+         <img src={book1} alt="Wings of Fire!" height="250px" width= "100px"/>
+         <img src={book2} alt="The London Seance Society by Sarah Penner!"height="250px" width= "100px" />
+         <img src={book3} alt="Romantic Comedy by Curtis Sittenfield!" height="250px" width= "100px"/>
       </div>      
    );
 }

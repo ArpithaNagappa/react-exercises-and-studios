@@ -1,6 +1,6 @@
 .choresText {
    color: red;
-   font-size: 200px;
+   font-size: 1.5vw;
    text-decoration: text-decoration-line;
    font-style: italic;
    text-align: left;
@@ -8,8 +8,9 @@
 }
 
 .choresHeading {
-   color: pink;
-   font-size: 100px;
+   color: blue;
+   /*font-size: 50px;*/
    text-decoration-line: underline;
+   text-align: left;
    
 }
