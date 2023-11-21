@@ -8,7 +8,7 @@ export default function BookList() {
 
    return (
       <div>
-         <h3 className="bookHeading">{pageTitle}</h3>
+         <h2 className="bookHeading">{pageTitle}</h2>
          <img src={book1} alt="Wings of Fire!" height="250px" width= "100px"/>
          <img src={book2} alt="The London Seance Society by Sarah Penner!"height="250px" width= "100px" />
          <img src={book3} alt="Romantic Comedy by Curtis Sittenfield!" height="250px" width= "100px"/>
