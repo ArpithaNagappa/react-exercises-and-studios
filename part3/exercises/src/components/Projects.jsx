@@ -21,7 +21,7 @@ export default function MyProjects() {
   return (
     <div>
       <button onClick={handleClick}>
-        Next
+        next
       </button>
       <h2>{project.canvas} by {project.designer}
       </h2>
