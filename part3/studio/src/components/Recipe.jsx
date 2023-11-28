@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://www.ambitiouskitchen.com/";
+   let authorPhoto = "https://www.ambitiouskitchen.com/brown-butter-chocolate-chip-cookies/";
+   let authorName = "Monique Volz";
 
    return (
       <div>
@@ -17,7 +17,9 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = [
+      'Flour', 'Sugar', 'Egg','Chocolate Chips','Brown Butter'
+   ];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -36,8 +38,8 @@ const RecipeDescription = () => {
    return (
       <div> 
          <div>
-            <h1></h1>
-            <p></p>
+            <h1> Brown Butter Chocolate Chip Cookies</h1>
+            <p>World famous brown butter chocolate chip cookies made with dark brown sugar, two types of chocolate chips and a sprinkle of sea salt. </p>
          </div>
          <div className="recipePhotoBlock">
             <RecipeIngredients />
@@ -49,7 +51,8 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src="https://www.ambitiouskitchen.com/wp-content/uploads/2016/10/AK-Brown-Butter-CCCs-2-750x750.jpg" alt="ChocolateChip Cookies"
+       className="imageUpdates" height="450px" width="450px"/>
    );
 }
 
